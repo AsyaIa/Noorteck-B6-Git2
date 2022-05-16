@@ -7,5 +7,9 @@ public class DemoTwo {
 		System.out.println("randome code...");
 		
 	}
+	
+	public void add(int a, int b) {
+		System.out.println(a+b);
+	}
 
 }
