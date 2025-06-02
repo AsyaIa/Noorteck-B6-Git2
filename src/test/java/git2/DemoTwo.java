@@ -2,6 +2,10 @@ package git2;
 //coming from remote...
 public class DemoTwo {
 	public static void main(String[] args) {
+		
+		DemoTwo obj = new DemoTwo ();
+		int c = obj.add(2, 2);
+		
 		System.out.println("Git demo 2...");
 		
 		System.out.println("randome code...");
