@@ -6,10 +6,16 @@ public class DemoTwo {
 		
 		System.out.println("randome code...");
 		
+		DemoTwo obj = new DemoTwo();
+		int c = obj.add(3, 5);
+		System.out.println(c);
+		
 	}
 	
-	public void add(int a, int b) {
+	public int add(int a, int b) {
+		int result = 0;
 		System.out.println(a+b);
+		return result;
 	}
 	
 	public void division(int a, int b) {
